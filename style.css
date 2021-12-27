@@ -1,0 +1,91 @@
+main {
+    width: 1080px;
+    height: 100vh;
+    background-color: #C6ECED;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding-top: 27px;
+}
+
+.header img {
+    width: 189px;
+    height: 69px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 21.13px;
+    text-align: center;
+}
+
+.text-search {
+    width: 751px;
+    height: 45px;
+    padding-left: 22px;
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.btn-search {
+    width: 109px;
+    height: 46px;
+    padding: 0 26px;
+    background: #3763AD;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #FFCB05;
+    cursor: pointer;
+}
+
+.cards {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 181px;
+    height: 253px;
+    background-color: #48D0B0;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.card:not(:last-child) {
+    margin-right: 50px;
+}
+
+.card:last-child {
+    background-color: #F66C6D;
+}
+
+.card .title {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.card .subtitle {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.card img {
+    width: 122px;
+    height: 122px;
+    margin-top: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 70px;
+    padding: 10px 15px;
+}
