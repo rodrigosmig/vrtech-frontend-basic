@@ -6,8 +6,11 @@ main {
 }
 
 .header {
+    width: 1080px;
     text-align: center;
     padding-top: 27px;
+    background-color: #C6ECED;
+    margin: auto;
 }
 
 .header img {
@@ -17,7 +20,7 @@ main {
 
 .search {
     width: 100%;
-    margin-top: 21.13px;
+    padding-top: 21.13px;
     text-align: center;
 }
 
